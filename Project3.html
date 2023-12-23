@@ -6,6 +6,7 @@
     <title>form creation</title>
 </head>
 <body>
+    <markquee>anitha</markquee>
     <form>
         <h2><legend>Create Account</legend></h2>
         <label for="fname">First Name*</label>
@@ -33,15 +34,16 @@
         <label for="mo">Movies</label>
         <input type="checkbox" name="mo"id="mo"><br><br>
         Source of Income
-        <section><option>Employed</option>
-        <option>farmer</option>
-        <option>labour</option></selection>
+        <select name="Source of Income" id="multiple">
+        <option value="Employed">Employed</option>
+        <option value="farmer">farmer</option>
+        <option value="labour">labour</option></select> <br><br>
         <label for="img">Upload Profile Picture</label>
         <input type="file" name="pic" id="img">
         <label for="age">Age</label>
         <input type="number" name="age" id="age"><br><br>
         <label for="bio">Bio</label>
-        <input type="text" name="bio" id="bio"><br><br>
+        <input type="textarea" name="bio" id="bio"><br><br>
         <input type="submit" value="Create">
     </form>
 </body>
