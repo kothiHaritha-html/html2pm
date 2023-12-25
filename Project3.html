@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form creation</title>
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <markquee>anitha</markquee>
-    <form>
-        <h2><legend>Create Account</legend></h2>
-        <label for="fname">First Name*</label>
+ <div class="form">
+    <form id="center" style="width:100%; height:100%;">
+        <h2>Create Account</h2>
+        <div class="cen">
+        <label for="fname" class="i">First Name*</label>
         <input type="text" name="fname" placeholder="enter your first name" id="fname">
         <label for="lname">Last Name:</label> 
         <input type="text" name="lname" placeholder="enter your first name" id="lname"><br><br>
@@ -19,11 +21,12 @@
         <input type="password" name="pword" placeholder="enter your password" id="pass">
         <label for="cpass">Confirm PassWord*</label>
         <input type="password" name="cword" placeholder="enter your password again" id="cpass"><br><br>
+
         Gender:
-        <label for="male">Male</label>
         <input type="radio" name="gender" id="male">
-        <label for="female">Female</label>
+        <label for="male">Male</label>
         <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
         Hobbies:
         <label for="m">Music</label>
         <input type="checkbox" name="m" id="m">
@@ -43,8 +46,10 @@
         <label for="age">Age</label>
         <input type="number" name="age" id="age"><br><br>
         <label for="bio">Bio</label>
-        <input type="textarea" name="bio" id="bio"><br><br>
-        <input type="submit" value="Create">
+        <textarea name="" id="bio" cols="30" rows="10"></textarea>
+        <input type="submit" value="Create" id="sub">
+    </div>
     </form>
+  </div>
 </body>
 </html>

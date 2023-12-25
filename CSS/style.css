@@ -1,0 +1,25 @@
+body
+{
+   background-color: rgb(255, 202, 127);
+   background-image: url('https://cdn.pixabay.com/photo/2016/03/22/15/29/blue-1273089_1280.jpg');
+   background-repeat: no no-repeat;
+}
+.center
+{
+  
+}
+h2
+{
+   color:red;
+   text-align:center;
+   font-weight: 600;
+}
+div
+{
+  color:aqua;
+  justify-content: center;
+}
+.cen
+{
+    justify-content: center;
+}
