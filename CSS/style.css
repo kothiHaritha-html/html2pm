@@ -2,7 +2,7 @@ body
 {
    background-color: rgb(255, 202, 127);
    background-image: url('https://cdn.pixabay.com/photo/2016/03/22/15/29/blue-1273089_1280.jpg');
-   background-repeat: no no-repeat;
+   background-repeat:no-repeat;
 }
 h2
 {
@@ -12,8 +12,9 @@ h2
 }
 div
 {
-  color:aqua;
+  color:brown;
   justify-content: center;
+  padding:0% 15%;
 }
 .cen
 {
